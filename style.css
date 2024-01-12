@@ -1,0 +1,74 @@
+*{
+    font-family: "Work Sans", sans-serif;
+    padding: 0;
+}
+nav{
+    display: flex;
+}
+h1{
+    font-size: 45px;
+}
+.ul-nav{
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    justify-self: center;
+    align-items: center ;
+    padding-left: 600px;
+   gap: 20px;}
+.fori{
+    color: white;
+    border: 1px solid rgb(155, 130, 130);
+    background-color: rgba(220, 79, 161, 0.848);
+    border-radius: 20px;
+    padding: 20px;;
+    gap: 20px;
+}
+section{
+    background: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+    padding: 0px 80px;
+    text-align: left;
+    display: flex;
+   
+}
+.goat{
+    padding: 50px 100px;
+}
+.goat h1,.huli{
+    padding-top: 5px;
+    margin: 0;
+    font-size: 100px;
+    font-weight: 900;
+    /* color: rgba(192, 69, 199, 0.722) */
+    background: linear-gradient( #F948B2, #8758F1 );
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+.btn-1,.btn-2{
+    padding: 10px 20px;
+    border-radius: 45px;
+    font-size: 15px;
+    background-color: rgb(196, 67, 208);
+    color: white;
+    border: none;
+    display: inline-flex;
+}
+.btn-2{
+    background-color: rgb(46, 134, 202);
+}
+.gami{
+    display: flex;
+  
+}
+.gamer{
+    width: 400px;
+    text-align: right;
+    padding: 150px 0px 0px 20px ;
+}
+.huli{
+    font-size: 30px;
+}
