@@ -4,6 +4,7 @@
 }
 nav{
     display: flex;
+  
 }
 h1{
     font-size: 45px;
@@ -14,7 +15,7 @@ h1{
     text-decoration: none;
     display: flex;
     list-style: none;
-    justify-self: center;
+    justify-content: space-between;
     align-items: center ;
     padding-left: 600px;
    gap: 20px;}
@@ -32,6 +33,7 @@ section{
     padding: 0px 80px;
     text-align: left;
     display: flex;
+    
    
 }
 .goat{
@@ -99,12 +101,67 @@ section{
 }
 .play{
     display: flex;
-    padding-top: 50px;    font-size: 20px;
+    padding-top: 20px;    
+    font-size: 20px; 
+    height: 800px;
 }
 .boxi{
     position: relative;
     top: -280px;
     right: 150px;
     width: 10px;
+  }
+.boxen{
+    position: relative;
+    top: 380px;
+    right: 120px;
+}
+.online{
+    padding-left: 50px;
+    display: flex;
+    width: 1350px;
+}
+.online .new{
+    padding: 200px 50px 220px 2px;
 
 }
+.tuni{
+    font-size: 40px;
+}
+.career{
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    color: white;
+    width: 1350px;
+    flex-shrink: 0;
+    background-attachment: fixed;
+    margin: 40px;
+  ;display: flex;
+    
+
+
+}
+
+.parti{
+   grid-area: 80px;
+    width: 600px;
+    height: 100%;   background-repeat: no-repeat;
+    text-align: left;
+    padding: 80px 0px 40px 80px;
+   
+}
+.list ul{
+  /* display: flex;  */
+  list-style: none;
+  text-decoration: none;
+  line-height: 30px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    gap: 50px;
+    
+}
+  .babu{
+    width: 800px;
+  } 
