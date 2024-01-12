@@ -1,167 +1,234 @@
-*{
-    font-family: "Work Sans", sans-serif;
-    padding: 0;
+* {
+  font-family: "Work Sans", sans-serif;
+  padding: 0;
 }
-nav{
-    display: flex;
-  
+nav {
+  display: flex;
 }
-h1{
-    font-size: 45px;
+h1 {
+  font-size: 45px;
 }
-.ul-nav{
-    font-weight: 500;
-    font-size: 15px;
-    text-decoration: none;
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    align-items: center ;
-    padding-left: 600px;
-   gap: 20px;}
-.fori{
-    color: white;
-    border: 1px solid rgb(155, 130, 130);
-    background-color: rgba(220, 79, 161, 0.848);
-    border-radius: 20px;
-    padding: 20px;;
-    gap: 20px;
+.ul-nav {
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 600px;
+  gap: 20px;
 }
-section{
-    background: url(./images/Group\ 14.png);
-    background-repeat: no-repeat;
-    padding: 0px 80px;
-    text-align: left;
-    display: flex;
-    
-   
+.fori {
+  color: white;
+  border: 1px solid rgb(155, 130, 130);
+  background-color: rgba(220, 79, 161, 0.848);
+  border-radius: 20px;
+  padding: 20px;
+  gap: 20px;
 }
-.goat{
-    padding: 50px 100px;
+section {
+  background: url(./images/Group\ 14.png);
+  background-repeat: no-repeat;
+  padding: 0px 80px;
+  text-align: left;
+  display: flex;
 }
-.goat h1,.huli,.hulu{
-    padding-top: 5px;
-    margin: 0;
-    font-size: 100px;
-    font-weight: 900;
-    /* color: rgba(192, 69, 199, 0.722) */
-    background: linear-gradient( #F948B2, #8758F1 );
-    -webkit-background-clip: text;
-    color: transparent;
-
+.goat {
+  padding: 50px 100px;
 }
-.btn-1,.btn-2{
-    padding: 10px 20px;
-    border-radius: 45px;
-    font-size: 15px;
-    background-color: rgb(196, 67, 208);
-    color: white;
-    border: none;
-    display: inline-flex;
+.goat h1,
+.huli,
+.hulu {
+  padding-top: 5px;
+  margin: 0;
+  font-size: 100px;
+  font-weight: 900;
+  /* color: rgba(192, 69, 199, 0.722) */
+  background: linear-gradient(#f948b2, #8758f1);
+  -webkit-background-clip: text;
+  color: transparent;
 }
-.btn-2{
-    background-color: rgb(46, 134, 202);
+.btn-1,
+.btn-2 {
+  padding: 10px 20px;
+  border-radius: 45px;
+  font-size: 15px;
+  background-color: rgb(196, 67, 208);
+  color: white;
+  border: none;
+  display: inline-flex;
 }
-.gami{
-    display: flex;
-  
+.btn-2 {
+  background-color: rgb(46, 134, 202);
 }
-.gamer{
-    width: 400px;
-    text-align: right;
-    padding: 150px 0px 0px 20px ;
+.gami {
+  display: flex;
 }
-.huli{
-    font-size: 30px;
+.gamer {
+  width: 400px;
+  text-align: right;
+  padding: 150px 0px 0px 20px;
 }
-.fun h1,.hulu{
-    font-size: 50px;
+.huli {
+  font-size: 30px;
 }
-.fun{
-    text-align: center;
-    /* padding-right: 900px; */
+.fun h1,
+.hulu {
+  font-size: 50px;
 }
-.funny{
-    width: 1300px;
+.fun {
+  text-align: center;
+  /* padding-right: 900px; */
 }
-.noob{
-    display: flex;
-    gap: 15px;
-    padding: 10px 50px 10px 30px;
+.funny {
+  width: 1300px;
 }
-.noob img{
-    width: 300px;
+.noob {
+  display: flex;
+  gap: 15px;
+  padding: 10px 50px 10px 30px;
 }
-.polto{
-
-    align-items: center;
-    text-align: right;
-    width: 350px;
-    padding: 100px 140px;
+.noob img {
+  width: 300px;
 }
-.play{
-    display: flex;
-    padding-top: 20px;    
-    font-size: 20px; 
-    height: 800px;
+.polto {
+  align-items: center;
+  text-align: right;
+  width: 350px;
+  padding: 100px 140px;
 }
-.boxi{
-    position: relative;
-    top: -280px;
-    right: 150px;
-    width: 10px;
-  }
-.boxen{
-    position: relative;
-    top: 380px;
-    right: 120px;
+.play {
+  display: flex;
+  padding-top: 20px;
+  font-size: 20px;
+  height: 800px;
 }
-.online{
-    padding-left: 50px;
-    display: flex;
-    width: 1350px;
+.boxi {
+  position: relative;
+  top: -280px;
+  right: 150px;
+  width: 10px;
 }
-.online .new{
-    padding: 200px 50px 220px 2px;
-
+.boxen {
+  position: relative;
+  top: 380px;
+  right: 120px;
 }
-.tuni{
-    font-size: 40px;
+.online {
+  padding-left: 50px;
+  display: flex;
+  width: 1350px;
 }
-.career{
-    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
-    color: white;
-    width: 1350px;
-    flex-shrink: 0;
-    background-attachment: fixed;
-    margin: 40px;
-  ;display: flex;
-    
-
-
+.online .new {
+  padding: 200px 50px 220px 2px;
+}
+.tuni {
+  font-size: 40px;
+}
+.career {
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+  color: white;
+  width: 1350px;
+  flex-shrink: 0;
+  background-attachment: fixed;
+  margin: 40px;
+  display: flex;
 }
 
-.parti{
-   grid-area: 80px;
-    width: 600px;
-    height: 100%;   background-repeat: no-repeat;
-    text-align: left;
-    padding: 80px 0px 40px 80px;
-   
+.parti {
+  grid-area: 80px;
+  width: 600px;
+  height: 100%;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding: 80px 0px 40px 80px;
 }
-.list ul{
+.list ul {
   /* display: flex;  */
   list-style: none;
   text-decoration: none;
   line-height: 30px;
 }
-.list{
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  gap: 50px;
+}
+.babu {
+  width: 800px;
+}
+.career .btn-1 {
+  background-color: aliceblue;
+  color: #ff0099;
+  font-weight: 700;
+}
+.nuri {
+  margin: 40px;
+  width: 1350px;
+  height: 500px;
+  align-items: center;
+  text-align: center;
+  padding-right: 0px;
+  gap: 25px;
+}
+.btn-3 {
+  display: flex;
+  padding: 0px 30px;
+  font-size: 30px;
+  border-radius: 65px;
+  border: none;
+  color: #28272a;
+  background-color: rgb(255, 255, 255);
+}
+.pera {
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.arekta {
+  align-items: center;
+  display: flex;
+  padding-left: 50px;
+  gap: 25px;
+}
+footer{
+    height: 400px;
+    width: 1150px;
+    background-color: #0B0223;
+    color: rgb(255, 254, 251);
+    text-align: center;
+    font-size: 55px;
+    padding: 100px;
+    gap: 25px;
+    font-weight: 700;
+
+
+}
+.we ul{
     display: flex;
-    justify-content: space-between;
-    padding-right: 50px;
-    gap: 50px;
+    list-style: none ;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+.we ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
     
 }
-  .babu{
-    width: 800px;
-  } 
+.icon{
+    gap: 45px;
+    padding-left: 5px;
+}
+.shesh{ 
+    font-size: 15px;
+    font-weight: 300;
+}
