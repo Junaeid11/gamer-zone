@@ -4,11 +4,12 @@
 }
 nav {
   display: flex;
+ 
 }
 h1 {
-  font-size: 45px;
+  font-size: 45px;position: sticky;
 }
-.ul-nav {
+.ul-nav { 
   font-weight: 500;
   font-size: 15px;
   text-decoration: none;
