@@ -37,7 +37,7 @@ section{
 .goat{
     padding: 50px 100px;
 }
-.goat h1,.huli{
+.goat h1,.huli,.hulu{
     padding-top: 5px;
     margin: 0;
     font-size: 100px;
@@ -71,4 +71,40 @@ section{
 }
 .huli{
     font-size: 30px;
+}
+.fun h1,.hulu{
+    font-size: 50px;
+}
+.fun{
+    text-align: center;
+    /* padding-right: 900px; */
+}
+.funny{
+    width: 1300px;
+}
+.noob{
+    display: flex;
+    gap: 15px;
+    padding: 10px 50px 10px 30px;
+}
+.noob img{
+    width: 300px;
+}
+.polto{
+
+    align-items: center;
+    text-align: right;
+    width: 350px;
+    padding: 100px 140px;
+}
+.play{
+    display: flex;
+    padding-top: 50px;    font-size: 20px;
+}
+.boxi{
+    position: relative;
+    top: -280px;
+    right: 150px;
+    width: 10px;
+
 }
